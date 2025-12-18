@@ -13,7 +13,3 @@ SHOW TABLES;
 SELECT COUNT(*) FROM financial_data;
 SELECT SUM(Revenue) AS total_revenue FROM financial_data;
 SELECT SUM(Profit) AS total_profit FROM financial_data;
-SELECT 
-    SUM(Sales_Amount) AS total_sales,
-    SUM(Profit) AS total_profit
-FROM sales_data;
